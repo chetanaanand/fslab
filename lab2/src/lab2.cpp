@@ -1,4 +1,5 @@
 
+
 //============================================================================
 // Name        : lab2.cpp
 // Author      : 
@@ -16,12 +17,13 @@ fstream fp;
 int key;
 class student
 {
-string	 usn,name,branch,sem;
+string	 usn,name,branch,sem,key;
 public:
 	void read();
 	void pack();
 	void write();
 	void unpack();
+	int search(string);
 };
 void student::read(void)
 {
